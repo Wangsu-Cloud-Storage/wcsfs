@@ -11,9 +11,13 @@ wcsfs是基于s3fs,fuse搭建。通过将本地的文件操作映射为S3请求�
  - 大文件支持分片上传
  - 工具只支持Linux环境使用
 
+## 下载地址
+[wcsfs下载](http://doc-pics.w.wcsapi.biz.matocloud.com/tool/wcsfs-0.6.1-8-centos-x86-64.zip)
+
 ## 安装及使用
 以centos为例
-1.下载并解压安装包后得到
+
+1、下载并解压安装包后得到
 
 ```
 install.sh
@@ -22,14 +26,14 @@ wcsfs-0.6.1-4.x86_64.rpm
 
 ```
 
-2.进入安装包路径后执行install命令，安装成功后通过`wcsfs --help`查看是否安装成功
+2、进入安装包路径后执行install命令，安装成功后通过`wcsfs --help`查看是否安装成功
 
 ```
 sh install.sh
 
 ```
 
-3.配置账号信息
+3、配置账号信息
 
 - 工具安装后会生成一个配置文件/usr/local/etc/wcsfs/wcsfs.conf.xml.del，重命名为/usr/local/etc/wcsfs/wcsfs.conf.xml
 - 编辑以下信息
@@ -42,7 +46,7 @@ sh install.sh
 
 ```
 
-4.运行
+4、运行
 
 ```
 wcsfs [OPTION...] [bucketname] [mountpoint]
