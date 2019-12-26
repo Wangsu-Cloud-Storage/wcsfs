@@ -12,7 +12,7 @@ wcsfs是基于s3fs,fuse搭建。通过将本地的文件操作映射为S3请求�
  - 工具只支持Linux环境使用
 
 ## 下载地址
-[wcsfs下载](http://doc-pics.w.wcsapi.biz.matocloud.com/tool/wcsfs-0.6.1-8-centos-x86-64.zip)
+[wcsfs下载](http://wcsd.chinanetcenter.com/tool/wcsfs-0.6.1-8-centos-x86-64.zip)
 
 ## 安装及使用
 以centos为例
