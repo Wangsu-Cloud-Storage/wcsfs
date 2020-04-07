@@ -35,7 +35,7 @@ sh install.sh
 
 3、配置账号信息
 
-- 工具安装后会生成一个配置文件/usr/local/etc/wcsfs/wcsfs.conf.xml.del，重命名为/usr/local/etc/wcsfs/wcsfs.conf.xml
+- 工具安装后会生成一个配置文件/usr/local/etc/wcsfs/wcsfs.conf.xml.def，重命名为/usr/local/etc/wcsfs/wcsfs.conf.xml
 - 编辑以下信息
 
 ```
