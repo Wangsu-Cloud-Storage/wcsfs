@@ -53,3 +53,14 @@ wcsfs [OPTION...] [bucketname] [mountpoint]
 例1：wcsfs /mnt    #将用户所有空间挂载到目录/mnt下
 例2：wcsfs bucketName1 /mnt2    #将用户的空间bucketName1挂载到目录/mnt2下
 ```
+
+5、取消挂载
+
+```
+umount /mnt
+```
+
+6、卸载
+```
+rpm -e wcsfs-0.6.1-4.x86_64
+```
