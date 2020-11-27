@@ -66,7 +66,8 @@ rpm -e wcsfs-0.6.1-4.x86_64
 ```
 
 7、调试
-如挂载出现异常，可在wcsfs.conf.xml配置文件中修改日志级别为debug，并通过-l参数指定日志文件后，在日志中查看异常原因
+
+- 如挂载出现异常，可在wcsfs.conf.xml配置文件中修改日志级别为debug，并通过-l参数指定日志文件后，在日志中查看异常原因
 ```
 <log>
 	<!-- use syslog for error messages -->
