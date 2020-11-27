@@ -64,3 +64,19 @@ umount /mnt
 ```
 rpm -e wcsfs-0.6.1-4.x86_64
 ```
+
+7、调试
+如挂载出现异常，可在wcsfs.conf.xml配置文件中修改日志级别为debug，并通过-l参数指定日志文件后，在日志中查看异常原因
+```
+<log>
+	<!-- use syslog for error messages -->
+	<use_syslog type="boolean">False</use_syslog>
+ 	<use_color type="boolean">False</use_color>
+
+ 	<!-- log level - LOG_err = 0, LOG_msg = 1, LOG_debug =2 -->
+ 	<level type="int">0</level>
+</log>
+```
+
+挂载时指定日志文件
+`wcsfs -c wcsfs.conf -l wcsfs.log /mnt/wcsfs`
