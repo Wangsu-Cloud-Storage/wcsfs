@@ -49,7 +49,7 @@ sh install.sh
 4、运行
 
 ```
-wcsfs [OPTION...] [bucketname] [mountpoint]
+wcsfs [OPTION...] [bucketname] [mountpoint]  # 注：moutpoint需为本地已存在的路径，工具不会自动创建
 例1：wcsfs /mnt    #将用户所有空间挂载到目录/mnt下
 例2：wcsfs bucketName1 /mnt2    #将用户的空间bucketName1挂载到目录/mnt2下
 ```
