@@ -29,7 +29,7 @@ wcsfs-0.6.1-4.x86_64.rpm
 2、进入安装包路径后执行install命令，安装成功后通过`wcsfs --help`查看是否安装成功
 
 ```
-sh install.sh
+sh install.sh（注：此处需要给install.sh执行权限`chmod +x install.sh`）
 
 ```
 
